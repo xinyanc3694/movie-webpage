@@ -1,0 +1,13 @@
+h1 {
+    text-align: center;
+}
+
+p{
+    float:left;
+}
+
+img{
+    float:right;
+    position:relative;
+    margin-bottom: 130px;
+}
