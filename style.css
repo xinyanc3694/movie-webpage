@@ -2,12 +2,23 @@ h1 {
     text-align: center;
 }
 
-p{
-    float:left;
+.a1 {
+    max-width: 250px;
+    position: absolute;
 }
 
-img{
-    float:right;
-    position:relative;
-    margin-bottom: 130px;
+#a {
+    float: right;
+}
+
+.b1{max-width: 250px;
+    position: absolute;
+
+
+
+}
+
+#b {
+    float: left;
+    margin: 300px 0;
 }
