@@ -41,7 +41,7 @@ h1 {
 
 .c{
     max-width: 900px;
-    height: 420px;
+    height: 320px;
     background: aqua;
     margin: auto;
     padding: 30px;
@@ -50,6 +50,31 @@ h1 {
 
 #c1{
     float: left;
-     position: absolute;
+ 
 
+}
+
+#cc1{
+    margin-left: 20px;
+    margin-top: 15px;
+    
+}
+
+#c2{
+    position: absolute;
+}
+
+#cc2{
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+#c3{
+     position: absolute;
+}
+
+#cc3{
+     margin-left: 77px;
+    margin-top: 15px;
+    
 }
