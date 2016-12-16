@@ -39,3 +39,12 @@ h1 {
     position: absolute;
 }
 
+.c{
+    max-width: 900px;
+    height: 420px;
+    background: aqua;
+    margin: auto;
+    padding: 30px;
+    margin-top:50px; 
+}
+
