@@ -2,12 +2,40 @@ h1 {
     text-align: center;
 }
 
-p{
-    float:left;
+.a{
+    max-width: 900px;
+    height: 200px;
+    background: aqua;
+    margin: auto;
+    padding: 30px;
+    margin-bottom:50px; 
 }
 
-img{
-    float:right;
-    position:relative;
-    margin-bottom: 130px;
+#a1 {
+    max-width: 250px;
+    position: absolute;
 }
+
+#a {
+    float: right;
+}
+
+.b{
+    max-width: 900px;
+    height: 200px;
+    background: aqua;
+    margin: auto;
+    padding: 30px;
+    margin-top: 50px
+    
+}
+#b1 {
+    max-width: 250px;
+    float: right;
+}
+
+#b {
+    float: left;
+    position: absolute;
+}
+
