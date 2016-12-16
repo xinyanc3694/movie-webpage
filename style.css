@@ -2,7 +2,16 @@ h1 {
     text-align: center;
 }
 
-.a1 {
+.a{
+    max-width: 900px;
+    height: 200px;
+    background: aqua;
+    margin: auto;
+    padding: 30px;
+    margin-bottom:50px; 
+}
+
+#a1 {
     max-width: 250px;
     position: absolute;
 }
@@ -11,14 +20,21 @@ h1 {
     float: right;
 }
 
-.b1{max-width: 250px;
-    position: absolute;
-
-
-
+.b{
+    max-width: 900px;
+    height: 200px;
+    background: aqua;
+    margin: auto;
+    padding: 30px;
+    margin-top: 50px
+    
+}
+#b1 {
+    max-width: 250px;
+    float: right;
 }
 
 #b {
     float: left;
-    margin: 300px 0;
+    position: absolute;
 }
