@@ -2,79 +2,84 @@ h1 {
     text-align: center;
 }
 
-.a{
+body{
+    background-color: #ffcccc;
+}
+
+div{
+    background-color: white;
+}
+
+.movie-summary{
     max-width: 900px;
     height: 200px;
-    background: aqua;
     margin: auto;
     padding: 30px;
     margin-bottom:50px; 
 }
 
-#a1 {
+#description {
     max-width: 250px;
     position: absolute;
 }
 
-#a {
+#poster {
     float: right;
 }
 
-.b{
+.cast-members{
     max-width: 900px;
     height: 200px;
-    background: aqua;
     margin: auto;
     padding: 30px;
     margin-top: 50px
     
 }
-#b1 {
+#name {
     max-width: 250px;
     float: right;
 }
 
-#b {
+#cast-pic {
     float: left;
     position: absolute;
 }
 
-.c{
+.form{
     max-width: 900px;
     height: 320px;
-    background: aqua;
     margin: auto;
     padding: 30px;
     margin-top:50px; 
 }
 
-#c1{
+#s-tickets{
     float: left;
  
 
 }
 
-#cc1{
+#num-s-tickets{
     margin-left: 20px;
     margin-top: 15px;
     
 }
 
-#c2{
+#a-tickets{
     position: absolute;
 }
 
-#cc2{
+#num-a-tickets{
     margin-left: 20px;
     margin-top: 15px;
 }
 
-#c3{
+#k-tickets{
      position: absolute;
 }
 
-#cc3{
-     margin-left: 77px;
+#num-k-tickets{
+     margin-left: 111px;
     margin-top: 15px;
     
 }
