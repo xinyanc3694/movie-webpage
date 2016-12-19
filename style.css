@@ -1,25 +1,28 @@
 h1 {
     text-align: center;
-    color:white;
+    color: white;
+    font-family: 'Aref Ruqaa', serif;
 }
 
-body{
+body {
     background-color: black;
 }
 
-div{
+div {
     background-color: white;
 }
 
-.movie-summary{
+.movie-summary {
     max-width: 900px;
     height: 200px;
     margin: auto;
     padding: 30px;
-    margin-bottom:50px; 
+    margin-bottom: 50px;
+    font-family: 'Space Mono', monospace;
 }
 
 #description {
+    font-family: 'Space Mono', monospace;
     max-width: 550px;
     position: absolute;
 }
@@ -28,100 +31,90 @@ div{
     float: right;
 }
 
-#hhcred{
-    float:right;
+#hhcred {
+    float: right;
     margin-top: 200px;
     margin-left: 3pc;
 }
 
-.cast-members{
+.cast-members {
     max-width: 900px;
     height: 200px;
     margin: auto;
     padding: 30px;
-    margin-top: 50px
-    
+    margin-top: 50px font-family: 'Space Mono', monospace;
 }
-ul{
-    position:absolute;
-}
-#name-one{
-    max-width: 250px;
-    
-    margin-top: 0px;
-    
-}
-#name-two{
-    max-width: 250px;
-    
-    margin-top: 30px;
-    
-}
-#name-three{
-    max-width: 250px;
-  
-     margin-top: 60px;
-    
-}
-#name-four{
-    max-width: 250px;
 
-     margin-top: 90px;
-    
+ul {
+    position: absolute;
 }
-#name-five{
+
+#name-one {
     max-width: 250px;
- 
-     margin-top: 120px;
+    margin-top: 0px;
+}
+
+#name-two {
+    max-width: 250px;
+    margin-top: 30px;
+}
+
+#name-three {
+    max-width: 250px;
+    margin-top: 60px;
+}
+
+#name-four {
+    max-width: 250px;
+    margin-top: 90px;
+}
+
+#name-five {
+    max-width: 250px;
+    margin-top: 120px;
 }
 
 #cast-pic {
     float: right;
-    
 }
 
-#mcred{
-    float:right;
+#mcred {
+    float: right;
     margin-top: 1px;
     margin-left: 30pc;
 }
 
-
-.form{
+.form {
     max-width: 900px;
     height: 320px;
     margin: auto;
     padding: 30px;
-    margin-top:50px; 
+    margin-top: 50px;
 }
 
-#s-tickets{
+#s-tickets {
     float: left;
- 
-
 }
 
-#num-s-tickets{
+#num-s-tickets {
     margin-left: 20px;
     margin-top: 15px;
-    
 }
 
-#a-tickets{
+#a-tickets {
     position: absolute;
 }
 
-#num-a-tickets{
+#num-a-tickets {
     margin-left: 20px;
     margin-top: 15px;
 }
 
-#k-tickets{
-     position: absolute;
+#k-tickets {
+    position: absolute;
 }
 
-#num-k-tickets{
-     margin-left: 111px;
+#num-k-tickets {
+    margin-left: 111px;
     margin-top: 15px;
-    
 }
