@@ -2,54 +2,118 @@ h1 {
     text-align: center;
 }
 
-.a{
+body{
+    background-color: #ffcccc;
+}
+
+div{
+    background-color: white;
+}
+
+.movie-summary{
     max-width: 900px;
     height: 200px;
-    background: aqua;
     margin: auto;
     padding: 30px;
     margin-bottom:50px; 
 }
 
-#a1 {
-    max-width: 250px;
+#description {
+    max-width: 550px;
     position: absolute;
 }
 
-#a {
+#poster {
     float: right;
 }
 
-.b{
+#hhcred{
+    float:right;
+    margin-top: 200px;
+    margin-left: 30pc;
+}
+
+.cast-members{
     max-width: 900px;
     height: 200px;
-    background: aqua;
     margin: auto;
     padding: 30px;
     margin-top: 50px
     
 }
-#b1 {
+ul{
+    position:absolute;
+}
+#name-one{
     max-width: 250px;
+    
+    margin-top: 0px;
+    
+}
+#name-two{
+    max-width: 250px;
+    
+    margin-top: 30px;
+    
+}
+#name-three{
+    max-width: 250px;
+  
+     margin-top: 60px;
+    
+}
+#name-four{
+    max-width: 250px;
+
+     margin-top: 90px;
+    
+}
+#name-five{
+    max-width: 250px;
+ 
+     margin-top: 120px;
+}
+
+#cast-pic {
     float: right;
+    
 }
 
-#b {
-    float: left;
-    position: absolute;
-}
-
-.c{
+.form{
     max-width: 900px;
-    height: 420px;
-    background: aqua;
+    height: 320px;
     margin: auto;
     padding: 30px;
     margin-top:50px; 
 }
 
-#c1{
+#s-tickets{
     float: left;
-     position: absolute;
+ 
 
+}
+
+#num-s-tickets{
+    margin-left: 20px;
+    margin-top: 15px;
+    
+}
+
+#a-tickets{
+    position: absolute;
+}
+
+#num-a-tickets{
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+#k-tickets{
+     position: absolute;
+}
+
+#num-k-tickets{
+     margin-left: 111px;
+    margin-top: 15px;
+    
 }
