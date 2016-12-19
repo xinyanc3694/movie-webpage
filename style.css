@@ -1,6 +1,6 @@
 h1 {
     text-align: center;
-    color:wh;
+    color:white;
 }
 
 body{
@@ -31,7 +31,7 @@ div{
 #hhcred{
     float:right;
     margin-top: 200px;
-    margin-left: 30pc;
+    margin-left: 3pc;
 }
 
 .cast-members{
@@ -79,6 +79,13 @@ ul{
     float: right;
     
 }
+
+#mcred{
+    float:right;
+    margin-top: 1px;
+    margin-left: 30pc;
+}
+
 
 .form{
     max-width: 900px;
