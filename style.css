@@ -42,7 +42,8 @@ div {
     height: 200px;
     margin: auto;
     padding: 30px;
-    margin-top: 50px font-family: 'Space Mono', monospace;
+    margin-top: 50px;
+    font-family: 'Space Mono', monospace;
 }
 
 ul {
@@ -90,10 +91,12 @@ ul {
     margin: auto;
     padding: 30px;
     margin-top: 50px;
+    font-family: 'Space Mono', monospace;
 }
 
 #s-tickets {
     float: left;
+    font-family: 'Space Mono', monospace;
 }
 
 #num-s-tickets {
@@ -103,15 +106,18 @@ ul {
 
 #a-tickets {
     position: absolute;
+    font-family: 'Space Mono', monospace;
 }
 
 #num-a-tickets {
     margin-left: 20px;
     margin-top: 15px;
+    font-family: 'Space Mono', monospace;
 }
 
 #k-tickets {
     position: absolute;
+    font-family: 'Space Mono', monospace;
 }
 
 #num-k-tickets {
