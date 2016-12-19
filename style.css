@@ -12,6 +12,11 @@ h3{
    
 }
 
+a {
+    text-align: center;
+    color: white;
+    font-family: 'Aref Ruqaa', serif;
+}
 
 body {
     background-color:black;
