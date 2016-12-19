@@ -12,7 +12,7 @@ body {
 
 .movie-summary {
     max-width: 900px;
-    height: 200px;
+    height: 350px;
     margin: auto;
     padding: 30px;
     margin-bottom: 50px;
@@ -43,9 +43,14 @@ body {
     height: 200px;
     margin: auto;
     padding: 30px;
+
     margin-top: 50px;
     font-family: 'Space Mono', monospace;
+<<<<<<< HEAD
+
+=======
     color:white;
+>>>>>>> 3eaac3042fbbb6892d2d2ca7d91ffac696eac447
 }
 
 ul {
