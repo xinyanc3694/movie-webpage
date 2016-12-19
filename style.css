@@ -34,7 +34,7 @@ body {
 #hhcred {
     float: right;
     margin-top: 200px;
-    margin-left: 3pc;
+    margin-left:30px;
     color:white;
 }
 
@@ -54,30 +54,31 @@ body {
 
 ul {
     position: absolute;
+    max-width:300px;
 }
 
 #name-one {
-    max-width: 250px;
+   
     margin-top: 0px;
 }
 
 #name-two {
-    max-width: 250px;
+ 
     margin-top: 30px;
 }
 
 #name-three {
-    max-width: 250px;
+
     margin-top: 60px;
 }
 
 #name-four {
-    max-width: 250px;
+ 
     margin-top: 90px;
 }
 
 #name-five {
-    max-width: 250px;
+   
     margin-top: 120px;
 }
 
@@ -131,6 +132,6 @@ ul {
 }
 
 #num-k-tickets {
-    margin-left: 111px;
+    margin-left: 167px;
     margin-top: 15px;
 }
