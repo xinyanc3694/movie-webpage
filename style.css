@@ -2,14 +2,12 @@ h1 {
     text-align: center;
     color: white;
     font-family: 'Aref Ruqaa', serif;
-    
 }
 
-h3{
-     text-align: center;
+h3 {
+    text-align: center;
     color: white;
     font-family: 'Aref Ruqaa', serif;
-   
 }
 
 a {
@@ -19,9 +17,8 @@ a {
 }
 
 body {
-    background-color:black;
+    background-color: black;
 }
-
 
 .movie-summary {
     max-width: 900px;
@@ -30,14 +27,14 @@ body {
     padding: 30px;
     margin-bottom: 50px;
     font-family: 'Space Mono', monospace;
-    color:white;
+    color: white;
 }
 
 #description {
     font-family: 'Space Mono', monospace;
     max-width: 550px;
     position: absolute;
-    color:white;
+    color: white;
 }
 
 #poster {
@@ -45,57 +42,44 @@ body {
     margin-top: 30px;
 }
 
-
-
 .cast-members {
     max-width: 900px;
     height: 200px;
     margin: auto;
     padding: 30px;
-
     margin-top: 50px;
     font-family: 'Space Mono', monospace;
-
-
-    color:white;
-
+    color: white;
 }
 
 ul {
     position: absolute;
-    max-width:350px;
+    max-width: 350px;
 }
 
 #name-one {
-   
     margin-top: 0px;
 }
 
 #name-two {
- 
     margin-top: 30px;
 }
 
 #name-three {
-
     margin-top: 60px;
 }
 
 #name-four {
- 
     margin-top: 90px;
 }
 
 #name-five {
-   
     margin-top: 120px;
 }
 
 #cast-pic {
     float: right;
 }
-
-
 
 .form {
     max-width: 900px;
@@ -104,13 +88,13 @@ ul {
     padding: 30px;
     margin-top: 50px;
     font-family: 'Space Mono', monospace;
-    color:white;
+    color: white;
 }
 
 #s-tickets {
     float: left;
     font-family: 'Space Mono', monospace;
-    color:white;
+    color: white;
 }
 
 #num-s-tickets {
@@ -121,7 +105,7 @@ ul {
 #a-tickets {
     position: absolute;
     font-family: 'Space Mono', monospace;
-    color:white;
+    color: white;
 }
 
 #num-a-tickets {
@@ -133,7 +117,7 @@ ul {
 #k-tickets {
     position: absolute;
     font-family: 'Space Mono', monospace;
-    color:white;
+    color: white;
 }
 
 #num-k-tickets {
