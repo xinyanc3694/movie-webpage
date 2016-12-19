@@ -2,15 +2,13 @@ h1 {
     text-align: center;
     color: white;
     font-family: 'Aref Ruqaa', serif;
+    color:white;
 }
 
 body {
     background-image: url("background.png");
 }
 
-div {
-    background-color: white;
-}
 
 .movie-summary {
     max-width: 900px;
@@ -19,12 +17,14 @@ div {
     padding: 30px;
     margin-bottom: 50px;
     font-family: 'Space Mono', monospace;
+    color:white;
 }
 
 #description {
     font-family: 'Space Mono', monospace;
     max-width: 550px;
     position: absolute;
+    color:white;
 }
 
 #poster {
@@ -35,6 +35,7 @@ div {
     float: right;
     margin-top: 200px;
     margin-left: 3pc;
+    color:white;
 }
 
 .cast-members {
@@ -44,6 +45,7 @@ div {
     padding: 30px;
     margin-top: 50px;
     font-family: 'Space Mono', monospace;
+    color:white;
 }
 
 ul {
@@ -92,11 +94,13 @@ ul {
     padding: 30px;
     margin-top: 50px;
     font-family: 'Space Mono', monospace;
+    color:white;
 }
 
 #s-tickets {
     float: left;
     font-family: 'Space Mono', monospace;
+    color:white;
 }
 
 #num-s-tickets {
@@ -107,6 +111,7 @@ ul {
 #a-tickets {
     position: absolute;
     font-family: 'Space Mono', monospace;
+    color:white;
 }
 
 #num-a-tickets {
@@ -118,6 +123,7 @@ ul {
 #k-tickets {
     position: absolute;
     font-family: 'Space Mono', monospace;
+    color:white;
 }
 
 #num-k-tickets {
