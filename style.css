@@ -37,6 +37,18 @@ body {
     color: white;
 }
 
+#trailer {
+    position: absolute;
+    margin-top: 350px;
+}
+
+audio{
+    
+position: absolute;
+    margin-top: 390px;
+}
+
+
 #poster {
     float: right;
     margin-top: 30px;
