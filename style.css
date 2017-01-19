@@ -2,6 +2,7 @@ h1 {
     text-align: center;
     color: white;
     font-family: 'Aref Ruqaa', serif;
+    text-shadow:2px 2px red; 
 }
 
 h3 {
