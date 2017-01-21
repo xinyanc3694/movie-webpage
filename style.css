@@ -21,8 +21,7 @@ a {
       animation-name: ccolor;
     animation-duration: 4s;
     animation-iteration-count: infinite;
-    transition:width;
-
+    
 }
 
 @keyframes ccolor {
@@ -31,9 +30,7 @@ a {
     50%  {color: #ff8080;}
     100% {color: #ffffcc;}
 }
-a:hover{
-     font-size:20px;
-}
+
 
 body {
    background: linear-gradient(to bottom right, #ffcccc, #474e5d);
