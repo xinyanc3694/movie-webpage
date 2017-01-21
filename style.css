@@ -2,7 +2,10 @@ h1 {
     text-align: center;
     color: white;
     font-family: 'Aref Ruqaa', serif;
+    text-shadow: 3px 4px 6px #666666;
+    
 }
+
 
 h3 {
     text-align: center;
@@ -12,12 +15,28 @@ h3 {
 
 a {
     text-align: center;
-    color: white;
     font-family: 'Aref Ruqaa', serif;
+      animation-name: ccolor;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    transition:width;
+
+}
+
+@keyframes ccolor {
+     0%  {color: #ccccff;}
+    25%  {color: #ccffff;}
+    50%  {color: #ff8080;}
+    100% {color: #ffffcc;}
+}
+a:hover{
+     font-size:20px;
 }
 
 body {
-    background-color: black;
+   background: linear-gradient(to bottom right, #ffcccc, #474e5d);
+
+   
 }
 
 .movie-summary {
@@ -35,6 +54,7 @@ body {
     max-width: 550px;
     position: absolute;
     color: white;
+    
 }
 
 #trailer {
@@ -57,8 +77,13 @@ position: absolute;
 #poster {
     float: right;
     margin-top: 30px;
+    transition: transform 2s;
+   
 }
 
+#poster:hover {
+    transform: rotateY(360deg);
+} 
 .cast-members {
     max-width: 900px;
     height: 200px;
@@ -67,6 +92,10 @@ position: absolute;
     margin-top: 50px;
     font-family: 'Space Mono', monospace;
     color: white;
+    animation-name: ccolor;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
 }
 
 ul {
@@ -96,7 +125,13 @@ ul {
 
 #cast-pic {
     float: right;
+    transition: transform 2s;
+
 }
+
+#cast-pic:hover {
+    transform: rotateY(360deg);
+} 
 
 .form {
     max-width: 900px;
@@ -106,6 +141,8 @@ ul {
     margin-top: 50px;
     font-family: 'Space Mono', monospace;
     color: white;
+    border: 3px double white;
+    border-radius:20px;
 }
 
 #s-tickets {
