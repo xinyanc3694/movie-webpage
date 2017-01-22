@@ -2,7 +2,6 @@ h1 {
     text-align: center;
     color: white;
     font-family: 'Aref Ruqaa', serif;
-
     text-shadow: 3px 4px 6px #666666;
     
 
@@ -18,12 +17,14 @@ h3 {
 a {
     text-align: center;
     font-family: 'Aref Ruqaa', serif;
+    /*allow the color changing effect to work continusly*/
       animation-name: ccolor;
     animation-duration: 4s;
     animation-iteration-count: infinite;
     
 }
 
+/*colors that are shown every time it changes*/
 @keyframes ccolor {
      0%  {color: #ccccff;}
     25%  {color: #ccffff;}
@@ -76,11 +77,13 @@ position: absolute;
 #poster {
     float: right;
     margin-top: 30px;
+    /*allow the rotation to work*/
     transition: transform 2s;
    
 }
 
 #poster:hover {
+    /*make the pic rotate 360 degrees*/
     transform: rotateY(360deg);
 } 
 .cast-members {
@@ -91,6 +94,7 @@ position: absolute;
     margin-top: 50px;
     font-family: 'Space Mono', monospace;
     color: white;
+     /*allow the color changing effect to work continusly*/
     animation-name: ccolor;
     animation-duration: 4s;
     animation-iteration-count: infinite;
@@ -124,11 +128,13 @@ ul {
 
 #cast-pic {
     float: right;
+    /*allow the rotation to work*/
     transition: transform 2s;
 
 }
 
 #cast-pic:hover {
+    /*make pic rotate 360 degrees*/
     transform: rotateY(360deg);
 } 
 
